@@ -1,0 +1,42 @@
+.Container {
+    display: flex;
+    flex: content;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    height: auto;
+    margin: 30px 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.social {
+    text-align: start;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.img {
+    width: 460px;
+}
+
+@media screen and (max-width: 850px){
+    .img {
+        width: 95%;
+    }
+
+    .social {
+        font-size: 14.3px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .img {
+        width: 80%;
+    }
+    
+}

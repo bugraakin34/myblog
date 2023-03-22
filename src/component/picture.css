@@ -1,0 +1,28 @@
+.picture {
+    display: flex;
+}
+
+.main {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;    
+    width: 70%;
+    height: auto;
+    margin: 30px 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 850px){
+    .main {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1700px){
+    .main {
+        width: 130%;
+    }
+    
+}

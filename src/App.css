@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +42,124 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  list-style: none;
+  margin: 20px 0px 1px 0px;
+  padding: 0px;
+  overflow: auto;
+}
+
+.nav{
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.li{
+  float: left;
+}
+
+.li:hover {
+  color: red;
+}
+
+a {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  margin: 30px;
+}
+
+a:hover {
+  color: orange;
+}
+
+
+@media screen and (max-width: 450px){
+  
+  .nav {
+    font-size: 12.7px;
+  }
+  
+}
+
+
+
+
+
+
+div.gallery {
+  border: 1px solid rgb(230, 203, 203);
+  margin: 10px;
+}
+
+div.gallery img {
+  margin-top: 20px;
+  width: 80%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.responsive {
+  float: left;
+  width: 25%;
+  padding: 0 6px;
+}
+
+.clearFix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lowerHeader {
+  text-align: left;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width:900px) {
+  .responsive {
+      width: 100%;
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .responsive {
+      width: 70%;
+  }
+
+}
+
+@media only screen and (max-width:1200px) {
+  .responsive {
+      width: 40%;
+      margin-left: 4%;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .responsive {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .nav {
+    font-size: 10.5px;
+
+  }
+  
+}
+
+
