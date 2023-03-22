@@ -19,7 +19,7 @@ export default function hello() {
 
             <li className='pr'>HTML</li>
             <li className='pr'>CSS</li>
-            <li className='pr'>JAVASCRİPT</li>
+            <li className='pr'>JAVASCRIPT</li>
             <li className='pr'>C</li>
             <li className='pr'>C#</li>
             <li className='pr'>JAVA</li>
